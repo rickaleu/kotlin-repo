@@ -12,9 +12,14 @@ class MainActivity : AppCompatActivity() {
 
         var name : String = "Ricardo"
         var age : Int = 34
+        var character: Char = 'r'
 
-        text_name.text = name
-        text_age.text = age.toString()
+        var nome = "Ricardo Sousa"
+        val idade = 34
+
+        text_name.text = nome
+        text_age.text = idade.toString()
+
 
     }
 }
