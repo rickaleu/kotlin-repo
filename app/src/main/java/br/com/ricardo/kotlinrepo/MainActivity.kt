@@ -10,15 +10,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var name : String = "Ricardo"
-        var age : Int = 34
-        var character: Char = 'r'
+        val frase = "Kotlin é uma linguagem"
+        val complemento = "Show!"
+        val idade = 10
 
-        var nome = "Ricardo Sousa"
-        val idade = 34
+        text_name.text = frase + "${complemento.length} $idade"
 
-        text_name.text = nome
-        text_age.text = idade.toString()
+
 
 
     }
