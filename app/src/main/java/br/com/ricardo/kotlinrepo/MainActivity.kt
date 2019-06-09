@@ -13,12 +13,17 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        
+
         teste()
+        teste2()
 
     }
 
     fun teste(){
         text_name.text = frase + "${complemento.length} $idade"
+    }
+
+    fun teste2(){
+        text_name.text = frase + "teste"
     }
 }
