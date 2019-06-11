@@ -15,15 +15,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         teste()
-        teste2()
 
     }
 
     fun teste(){
         text_name.text = frase + "${complemento.length} $idade"
-    }
-
-    fun teste2(){
-        text_name.text = frase + "teste"
     }
 }
