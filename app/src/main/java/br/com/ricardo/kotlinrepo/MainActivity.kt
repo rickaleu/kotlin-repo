@@ -19,6 +19,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun teste(){
-        text_name.text = frase + "${complemento.length} $idade"
+        text_name.text = frase + "${complemento.length} $frase"
     }
 }
