@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         calculaBonus(5, 6, 7)
 
         hello("Ricardo")
+        text_age.text = soma(3, 5).toString()
 
     }
 
@@ -33,6 +34,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun hello(nome: String){
-        text_age.text = nome
+
     }
+
+    fun hello2(nome : String) : String = "Olá $nome"
+    fun soma(a : Int, b : Int) : Int = a + b
 }
