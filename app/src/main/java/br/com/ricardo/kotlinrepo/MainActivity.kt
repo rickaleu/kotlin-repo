@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         calculaBonus(5, 6, 7)
 
-        hello("Ricardo")
+        hello("Strange!")
         text_age.text = soma(3, 5).toString()
 
     }
