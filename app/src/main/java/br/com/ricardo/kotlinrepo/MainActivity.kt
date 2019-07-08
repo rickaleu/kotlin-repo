@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
     val b = 20
     val c = 30
 
+    var numero = 10
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -22,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         hello("Strange!")
         text_age.text = soma(3, 5).toString()
+
+        println("numero++ = ${numero++}")
 
     }
 
