@@ -41,6 +41,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun hello2(nome : String) : String = "Olá $nome"
+    fun hello2(nome : String) : String = "Olá $numero"
     fun soma(a : Int, b : Int) : Int = a + b
 }
